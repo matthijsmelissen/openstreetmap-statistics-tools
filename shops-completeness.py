@@ -10,6 +10,7 @@
 # PostGIS-database with osm2pgsql:
 # sudo -u postgres createdb --encoding=UTF8 gis    
 # psql --dbname=gis -c "CREATE EXTENSION postgis;"
+# psql --dbname=gis -c "CREATE EXTENSION hstore;"
 # osm2pgsql --slim -d gis -C 2000 --hstore --number-processes 3 netherlands-latest.osm.pbf
 #
 # Usage: Simply run './shops-completeness.py'.
