@@ -174,7 +174,6 @@ while ($name = pg_fetch_array($result, null, PGSQL_ASSOC)) {
             $i++;
         }
         $data[$type][] = $shop;
-        echo "Got data for $displayName.\n";
     }
 }
 
