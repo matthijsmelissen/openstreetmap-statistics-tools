@@ -99,7 +99,7 @@ $duplicatesList = array(
 
 
 
-$dbconn = pg_connect("host=localhost dbname=$db")
+$dbconn = pg_connect("dbname=$db")
     or die('Could not connect: ' . pg_last_error());
 
 echo "Selecting shops...\n";
