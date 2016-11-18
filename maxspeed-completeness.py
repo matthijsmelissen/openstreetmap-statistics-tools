@@ -16,8 +16,8 @@ from __future__ import division
 import psycopg2
 import sys
 
-db = "postgres"
-user = "gis"
+db = "gis"
+user = "postgres"
 
 con = None
 

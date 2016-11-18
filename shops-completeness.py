@@ -28,18 +28,17 @@ try:
     # Set here the shop names and the total number of shops
     shops = [
       ("Albert Heijn", 850),
-      ("Bijenkorf", 10),
+      ("Bijenkorf", 7),
       ("Gamma", 165),
-      ("V&D", 62),
       ("C&A", 132),
-      ("BCC", 75),
+      ("BCC", 73),
       ("Kwantum", 99),
-      ("Mango", 50),
-      ("Bruna", 380),
+      ("Mango", 30),
+      ("Bruna", 335),
       ("Blokker", 622),
       ("Specsavers", 118),
       ("Witteveen", 100),
-      ("Shoeby", 223),
+      ("Shoeby", 225),
     ]
 
     con = psycopg2.connect(database=db, user=user)
