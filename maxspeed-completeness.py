@@ -14,6 +14,7 @@
 
 from __future__ import division
 import psycopg2
+import sys
 
 db = "gis"
 user = "gis"
