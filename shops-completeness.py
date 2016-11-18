@@ -20,7 +20,7 @@ import psycopg2
 import sys
 
 db = "gis"
-user = "gis"
+user = "postgres"
 
 con = None
 
@@ -42,7 +42,7 @@ try:
       ("Shoeby", 223),
     ]
 
-    con = psycopg2.connect(database='gis_nl', user='matthijs')
+    con = psycopg2.connect(database=db, user=user)
     cur = con.cursor()
 
     for shop in shops:
